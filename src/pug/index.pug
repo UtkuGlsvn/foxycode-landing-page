@@ -5,10 +5,10 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        <meta name="description" content="FoxyCode Studios - FoxyCode: Your One-Stop Solution for Mobile Apps, Games, Digital Marketing, and Customized Websites and Apps. Transform your digital presence with our expertise." />
+        meta(name='author', content='FoxyCode Studios')
 
-        title FoxyCodeStudios
+        title FoxyCodeStudios - Mobile/Game Application
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/img/foxylogo.png')
@@ -21,16 +21,21 @@ html(lang='en')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
-
+        
     body
 
         // Navigation
         nav.navbar.navbar-light.bg-light.static-top
             .container
                 .row.w-100.justify-content-center
-                    .col-lg-4.text-center
-                        img(src='assets/img/foxylogo.png', alt='...')
-                        a.navbar-brand(href='#!') FoxyCodeStudios
+                .col-lg-4.text-center
+                    img(src='assets/img/foxylogo.png', alt='foxycode icon')
+                    a.navbar-brand(href='#!') FoxyCodeStudios                                                   
+                script(type='text/javascript').
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                    }
+                script(type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit')
 
 
         // Masthead
@@ -55,7 +60,7 @@ html(lang='en')
             .container
                 .row
                     .col-lg-6.h-100.text-center.text-lg-start.my-auto                        
-                        p.text-muted.small.mb-4.mb-lg-0 &copy; FoxyCode 2023 - All Rights Reserved.
+                        p.text-muted.small.mb-4.mb-lg-0 &copy; FoxyCodeStudios 2023 - All Rights Reserved.
                     .col-lg-6.h-100.text-center.text-lg-end.my-auto
                         ul.list-inline.mb-0
                             li.list-inline-item.me-4
