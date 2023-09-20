@@ -47,14 +47,54 @@ html(lang='en')
                             // Page heading
                             h1.mb-5 Change, Innovate, Iterate, Inspire. That's Us, That's FoxyCode.  
 
+        // ShowCase
         section.showcase
             .container-fluid.p-0
                 .row.g-0
-                    .col-lg-6.order-lg-2.text-white.showcase-img
-                        img(src='assets/work-in-progress.gif', alt='...', style='width: 500px; height: auto;')
+                    .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/whofoxycode.jpg');")
                     .col-lg-6.order-lg-1.my-auto.showcase-text
-                        h2 Wait for it ...                        
+                        h2 What We Do
+                        p.lead.mb-0
+                            | We offer software consulting and development services.
+                            | We also provide digital marketing and SEO support.                                              
+                        a.navbar(href='mailto:info@foxycodestudios.com')  Contact Us                                                                               
+                .row.g-0
+                    .col-lg-6.text-white.showcase-img(style="background-image: url('assets/img/appfoxycode.jpg');")
+                    .col-lg-6.my-auto.showcase-text
+                        h2 We Build Our Own Products
+                        p.lead.mb-0
+                            | Watch little foxes, we make our own ideas, we create our own applications and games.
+                            | We change, we generate innovative ideas. Join with us 
+                        a.navbar(href='mailto:info@foxycodestudios.com')  Contact Us                                                                               
+
+    // Testimonials
+        section.testimonials.text-center.bg-light
+            .container
+                h2.mb-5 What people are saying...
+                .row
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-1.jpg', alt='...')
+                            h5 Margaret E.
+                            p.font-weight-light.mb-0 "This is fantastic! Thanks so much guys!"
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-2.jpg', alt='...')
+                            h5 Fred S.
+                            p.font-weight-light.mb-0
+                                | "Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-3.jpg', alt='...')
+                            h5 Sarah W.
+                            p.font-weight-light.mb-0 "Thanks so much for making these free resources available to us!"
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-3.jpg', alt='...')
+                            h5 Sarah W.
+                            p.font-weight-light.mb-0 "Thanks so much for making these free resources available to us!"
                             
+
         // Footer
         footer.footer.bg-light
             .container
@@ -89,58 +129,3 @@ html(lang='en')
         // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
         script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')                                                          
-
-//- 
-
-        // Image Showcases
-        section.showcase
-            .container-fluid.p-0
-                .row.g-0
-                    .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-1.jpg');")
-                    .col-lg-6.order-lg-1.my-auto.showcase-text
-                        h2 Fully Responsive Design
-                        p.lead.mb-0
-                            | When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!
-                .row.g-0
-                    .col-lg-6.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-2.jpg');")
-                    .col-lg-6.my-auto.showcase-text
-                        h2 Updated For Bootstrap 5
-                        p.lead.mb-0
-                            | Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!
-                .row.g-0
-                    .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-3.jpg');")
-                    .col-lg-6.order-lg-1.my-auto.showcase-text
-                        h2 Easy to Use & Customize
-                        p.lead.mb-0
-                            | Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!
-
-        // Testimonials
-        section.testimonials.text-center.bg-light
-            .container
-                h2.mb-5 What people are saying...
-                .row
-                    .col-lg-4
-                        .testimonial-item.mx-auto.mb-5.mb-lg-0
-                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-1.jpg', alt='...')
-                            h5 Margaret E.
-                            p.font-weight-light.mb-0 "This is fantastic! Thanks so much guys!"
-                    .col-lg-4
-                        .testimonial-item.mx-auto.mb-5.mb-lg-0
-                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-2.jpg', alt='...')
-                            h5 Fred S.
-                            p.font-weight-light.mb-0
-                                | "Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
-                    .col-lg-4
-                        .testimonial-item.mx-auto.mb-5.mb-lg-0
-                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-3.jpg', alt='...')
-                            h5 Sarah W.
-                            p.font-weight-light.mb-0 "Thanks so much for making these free resources available to us!"
-
-        // Call to Action
-        section#signup.call-to-action.text-white.text-center
-            .container.position-relative
-                .row.justify-content-center
-                    .col-xl-6
-                        
-                        -//
-
